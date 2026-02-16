@@ -255,6 +255,139 @@ body {
     font-size: 0.9rem;
 }
 
+/* Hero Subtext */
+.hero-subtext {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 32px;
+    line-height: 1.7;
+}
+
+/* Problem & Solution Sections */
+.problem-section,
+.solution-section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.problem-section h2,
+.solution-section h2 {
+    color: var(--sunshine);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.problem-section p,
+.solution-section p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+/* How It Works */
+.how-it-works {
+    padding: 60px 20px;
+    background: var(--dark-surface);
+}
+
+.how-it-works h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--sunshine);
+    margin-bottom: 48px;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.step-card {
+    text-align: center;
+    padding: 32px 24px;
+}
+
+.step-number {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(to right, var(--coral), var(--sunshine));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.step-card h3 {
+    color: var(--warm-sun);
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.step-card p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Premium Badge */
+.premium-badge {
+    display: inline-block;
+    background: linear-gradient(to right, var(--coral), var(--sunshine));
+    color: var(--white);
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 60px 20px 80px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-section h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--sunshine);
+    margin-bottom: 48px;
+}
+
+.faq-item {
+    margin-bottom: 32px;
+    background: var(--dark-surface);
+    padding: 24px 28px;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+}
+
+.faq-item h3 {
+    color: var(--warm-sun);
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+}
+
+.faq-item p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
     .hero {
