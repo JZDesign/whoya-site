@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/@rive-app/canvas"></script>
+</head>
+<body>
+  <canvas id="canvas" width="400" height="400"></canvas>
+
+  <script>
+    const r = new rive.Rive({
+      src: "https://assets.codepen.io/278239/3306-6996-cannonball-man.riv",
+      canvas: document.getElementById("canvas"),
+      autoplay: true,
+      stateMachines: "Motion",
+      artboard: "Main Artboard",
+      onLoad: () => {
+        r.resizeDrawingSurfaceToCanvas();
+      }
+    });
+  </script>
+</body>
+</html>
